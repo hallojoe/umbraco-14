@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "watch": "vite build --watch",
+    "generate": "openapi-ts --input http://localhost:23809/umbraco/swagger/back-office/swagger.json --output src/api --debug true --enums typescript --lint true --schemas false"
+  },
+  "dependencies": {
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.39.0",
+    "@umbraco-cms/backoffice": "^14.0.0-rc3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

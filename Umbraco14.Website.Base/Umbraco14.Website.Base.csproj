@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>This project contain models and other things needed for Website.</Description>
+        <RootNamespace>Umbraco14.Website</RootNamespace>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Umbraco.Cms.Core" Version="14.0.0-rc3" />
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="14.0.0-rc3" />
+        <PackageReference Include="Umbraco.Cms.Web.Website" Version="14.0.0-rc3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+      <Folder Include="Models\ViewModels\" />
+    </ItemGroup>
+    
+</Project>

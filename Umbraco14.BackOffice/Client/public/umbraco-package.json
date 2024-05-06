@@ -1,0 +1,15 @@
+{
+    "$schema": "../umbraco-package-schema.json",    
+    "name": "BackOffice",
+    "id": "Umbraco14.BackOffice",
+    "version": "0.1.0",
+    "allowTelemetry": false,
+    "extensions": [
+        {
+            "name": "BackOffice.entrypoint",
+            "alias": "BackOffice.EntryPoint",
+            "type": "entryPoint",
+            "js": "/App_Plugins/BackOffice/client.js"
+        }
+    ]
+}
