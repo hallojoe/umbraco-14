@@ -7,6 +7,7 @@ export type AssemblyInformation = {
     version?: Version | null;
     productVersion?: string | null;
     isDynamic: boolean;
+    isomething: boolean;
     referencedAssemblies?: {
         [key: string]: (string);
     } | null;
@@ -16,6 +17,7 @@ export type ServerInformation = {
     serverIdentity?: string | null;
     serverAddress?: string | null;
     isActive: boolean;
+    niels: boolean;
     isSchedulingPublisher: boolean;
     registered: string;
     accessed: string;

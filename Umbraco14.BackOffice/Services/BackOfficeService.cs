@@ -26,6 +26,7 @@ public sealed class BackOfficeService(IServerRegistrationService serverRegistrat
             umbracoServer.ServerAddress,
             umbracoServer.IsActive,
             umbracoServer.IsSchedulingPublisher,
+            true,
             umbracoServer.Registered,
             umbracoServer.Accessed));
 
@@ -49,6 +50,7 @@ public sealed class BackOfficeService(IServerRegistrationService serverRegistrat
             version,
             FileVersionInfo.GetVersionInfo(assembly.Location).ProductVersion,
             assembly.IsDynamic,
+            false,
             new Dictionary<string, string>());
 
         return result;

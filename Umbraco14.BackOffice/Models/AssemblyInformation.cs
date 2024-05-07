@@ -6,4 +6,5 @@ public record AssemblyInformation(
     Version? Version,
     string? ProductVersion,
     bool IsDynamic,
+    bool Isomething,
     Dictionary<string, string>? ReferencedAssemblies);

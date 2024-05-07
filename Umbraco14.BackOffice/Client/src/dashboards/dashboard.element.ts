@@ -25,6 +25,8 @@ export class BackOfficeDashboard extends UmbElementMixin(LitElement) {
 
       this.#backofficeContext = _instance;
 
+
+
       this.observe(_instance.serverInformation, (_serverInformation) => {
 
         this.serverInformation = _serverInformation;

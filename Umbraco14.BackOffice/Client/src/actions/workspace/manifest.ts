@@ -8,7 +8,7 @@ const action: ManifestWorkspaceAction = {
   name: "backoffice workspace action",
   api: BackOfficeAction,
   meta: {
-    label: "Time Action",
+    label:"BAckOffice Action",
     look: "primary",
     color: "default",
   },

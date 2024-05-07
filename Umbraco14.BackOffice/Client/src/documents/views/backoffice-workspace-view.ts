@@ -2,7 +2,7 @@ import { UmbElementMixin } from "@umbraco-cms/backoffice/element-api";
 import { LitElement, css, customElement, html, state } from "@umbraco-cms/backoffice/external/lit";
 import { UMB_WORKSPACE_CONTEXT, UmbVariantDatasetWorkspaceContext } from "@umbraco-cms/backoffice/workspace";
 
-import { MediaResponseModel, MediaService, MediaValueModel } from '@umbraco-cms/backoffice/external/backend-api';
+import { MediaService } from '@umbraco-cms/backoffice/external/backend-api';
 import { tryExecute } from '@umbraco-cms/backoffice/resources';
 
 
