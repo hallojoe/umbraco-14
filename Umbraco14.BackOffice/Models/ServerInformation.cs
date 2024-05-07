@@ -5,6 +5,7 @@ public record ServerInformation(
     string? ServerAddress,
     bool IsActive,
     bool Niels,
+    string? Ihor,
     bool IsSchedulingPublisher,
     DateTime Registered,
     DateTime Accessed);

@@ -18,6 +18,7 @@ export type ServerInformation = {
     serverAddress?: string | null;
     isActive: boolean;
     niels: boolean;
+    ihor?: string | null;
     isSchedulingPublisher: boolean;
     registered: string;
     accessed: string;

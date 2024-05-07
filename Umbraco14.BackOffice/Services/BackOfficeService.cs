@@ -26,7 +26,9 @@ public sealed class BackOfficeService(IServerRegistrationService serverRegistrat
             umbracoServer.ServerAddress,
             umbracoServer.IsActive,
             umbracoServer.IsSchedulingPublisher,
+            "Unicorn",
             true,
+            
             umbracoServer.Registered,
             umbracoServer.Accessed));
 
